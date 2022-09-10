@@ -1,3 +1,15 @@
+html {
+
+box-sizing: border-box;
+}
+*,
+*::before,
+*::after
+{
+box-sizing: inherit;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #263238;
@@ -15,4 +27,313 @@ ul {
 
 a {
     text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+ul, h1, h2, h3, p {
+margin: 0px;
+padding: 0px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 1338px;
+    align-items: center;
+    display: flex;
+}
+
+ .section {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;}
+
+
+    /* хедер */
+
+.logo {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 1.5;
+color: #000000;
+}
+
+.logo-color {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 1.5;
+color: #939393;
+
+}
+
+.navigation {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: #263238;
+display: inline-flex;
+align-items: center;
+padding-top: 75px;
+padding-bottom: 75px;
+margin-left: 236px;
+}
+
+.button-header {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+text-align: center;
+color: #000000;
+border: 2px solid #263238;
+border-radius: 10px;
+box-sizing: border-box;
+display: flex;
+margin-left: auto;
+
+}
+
+.list-navigation {
+margin-left: 50px;
+}
+
+.list-navigation:first-child {
+margin-left: 0px;
+}
+
+/*герой*/
+
+.section-hero {
+text-align: center;
+padding-top: 0px;
+padding-bottom: 90px;}
+
+h1 {
+
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 1.33;
+color: #000000;
+}
+
+.hero {
+
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.5;
+color: #8F95A5;
+}
+
+.button-hero {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 1.5;
+text-align: center;
+color: #FFFFFF;
+background: #263238;
+border-radius: 10px;
+
+}
+
+/*скіли*/
+
+.skills{ 
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+}
+
+.skills-item {
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 1.5;
+color: #263238;
+}
+
+.skills-text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #8F95A5;
+
+}
+
+.skills-button {
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.5;
+color: #FFFFFF;
+background: #263238;
+border-radius: 10px;
+
+}
+
+/*про нас*/
+
+.title {
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+
+}
+
+.text-about {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.8;
+color: #8F95A5;
+}
+
+.numbers {
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #2A3246;
+}
+
+.text-about-numbers {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+color: #8F95A5;
+
+}
+
+/* прайс */
+
+.price {
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+}
+
+.price-header {
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 1.6x;
+text-transform: capitalize;
+color: #263238;
+}
+
+.price-text {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+color: #8F95A5;
+}
+
+.price-number {
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.5;
+color: #263238;
+}
+
+.period {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+color: #546269;
+
+}
+
+/* контакти*/
+.section-contact {
+text-align: center;
+padding-top: 90px;
+padding-bottom: 55px;
+}
+
+.contact {
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+}
+
+.contact-text {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+color: #8F95A5;
+}
+
+.form {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+color: #8F95A5;
+}
+
+.contact-button {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: #263238;
+border-radius: 10px;
+
+}
+/* футер */
+
+.footer-container {
+margin-left: auto;
+margin-right: auto;
+padding-right: 20px;
+padding-left: 20px;
+width: 1338px;
+align-items: center;
+display: flex;
+
+}
+.footer-list-item {
+display: flex;
+
+}
+
+.footer-line {
+border-top: 1px solid #C4C4C4;
+}
+
+.footer-list {
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.5;
+display: inline-flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: #8F95A5;
 }
